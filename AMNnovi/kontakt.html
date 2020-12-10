@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaš nalog</title>
+    <script type="text/javascript" src="script/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
+    <link rel="shortcut icon" type="image/x-icon" href="slike/icon.jpeg">
+</head>
+<body>
+    <div class="meni">
+        <ul>
+            
+            <li ><a href="index.html">Početna</a></li>
+        <li> <a href="proizvodi.html"> Proizvodi</a>
+        <div class="podmeni">
+            <ul>
+               <a href="proizvodi.html#licee"> <li>Lice</li></a>
+              <a href="proizvodi.html#ocii"> <li>Oči</li></a>
+              <a href="proizvodi.html#usnee">  <li>Usne</li></a>
+                
+            </ul>
+
+        </div></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="kontakt.html">Vaš nalog</a></li>
+            
+        </ul>
+        <img src="slike/logo.jpeg">
+    </div>
+    <div id="divovi">
+    <div id="prviDiv">
+        <h2 onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">Registruj se!</h2><br>
+        <form  onsubmit="return prozor1();">
+            <label for="imePrezime">Ime i prezime: </label>
+            <input type="text" id="imePrezime" required onfocus="handleOnFocus(this);"><br><br>
+
+            <label>Pol: </label>
+            <input type="radio" name="radio1">Ženski
+            <input type="radio" name="radio1">Muški <br><br>
+
+            <label for="email">E-mail adresa: </label>
+            <input type="email" id="email" required onfocus="handleOnFocus(this);"><br><br>
+
+            <label for="telefon">Telefon: </label>
+            <input type="text" id="telefon" onfocus="handleOnFocus(this);"><br><br>
+            
+            <label for="adresa">Adresa: </label>
+            <input type="text" id="adresa" onfocus="handleOnFocus(this);"><br><br>
+
+            <p>Kreiraj svoje korisničko ime i lozinku</p><br><br>
+
+            <label for="username">Korisničko ime: </label>
+            <input type="text" id="username1" required onfocus="handleOnFocus(this);"><br><br>
+
+            <label for="password">Lozinka: </label>
+            <input type="password" id="password1" required onfocus="handleOnFocus(this);"><br><br>
+
+            <input type="submit" value="Potvrdi" >
+
+
+
+        </form>
+    </div>
+    
+    <div id="drugiDiv">
+        <h2 onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">Prijavi se!</h2><br>
+        <form onsubmit=" return prozor2();">
+            <label for="username">Korisničko ime: </label>
+            <input type="text" id="username2" required onfocus="handleOnFocus(this);"><br><br>
+
+            <label for="password">Lozinka: </label>
+            <input type="password" id="password2" required onfocus="handleOnFocus(this);"><br><br>
+
+            <input type="submit" value="Potvrdi" >
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

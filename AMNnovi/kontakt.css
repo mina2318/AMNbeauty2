@@ -1,0 +1,32 @@
+#divovi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    opacity: 0.8;
+}
+
+#prviDiv {
+    text-transform: uppercase;
+    color: rgb(94, 44, 29);
+    text-align: center;
+    background-color: #fff2e6;
+
+    padding: 60px;
+    margin: 20px auto;
+    margin-top: 200px;
+
+}
+
+#drugiDiv {
+    text-transform: uppercase;
+    color: rgb(94, 44, 29);
+    text-align: center;
+    background-color: #fff2e6;
+
+    padding: 60px;
+    margin: 20px auto;
+    margin-top: 200px;
+
+}

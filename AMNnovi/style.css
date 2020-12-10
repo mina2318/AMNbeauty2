@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    background-image: url(slike/pravapozadina1.jpeg);
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.meni {
+    background-color: rosybrown;
+    text-align: center;
+
+    font-weight: bold;
+    text-decoration-color: salmon;
+
+}
+
+.meni img {
+    top: 0px;
+    height: 80px;
+    width: 200px;
+    right: 0px;
+    top: 5px;
+
+    position: sticky;
+    top: 0;
+}
+
+.meni ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.meni ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.meni ul li:hover {
+    background-color: rgb(192, 176, 153);
+    border-radius: 1px;
+    color: salmon;
+
+}
+
+.meni ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(94, 44, 29);
+}
+
+.podmeni {
+    display: none;
+
+}
+
+.meni ul li:hover .podmeni {
+    display: block;
+    position: absolute;
+    background: rgba(209, 129, 142, 0.603);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.meni ul li:hover .podmeni ul {
+    display: block;
+}
+
+.sadrzaj {
+    background-color: #fff2e6;
+    width: 50%;
+    padding: 90px;
+    margin: 100px auto;
+    margin-top: 200px;
+    opacity: 0.5;
+
+
+}
+
+p {
+    font-size: 15px;
+    color: brown;
+    text-align: center;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    padding: 60px;
+    background-color: rgba(209, 129, 142, 0.603);
+    justify-content: space-between;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(92, 62, 29);
+}
+
+#wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}

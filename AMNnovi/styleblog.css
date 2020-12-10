@@ -1,0 +1,48 @@
+#natural {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    align-content: stretch;
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#night {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    align-content: stretch;
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#vintage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    align-content: stretch;
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.naslovi {
+    text-transform: uppercase;
+    color: rgb(94, 44, 29);
+    text-align: center;
+}
